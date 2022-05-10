@@ -6,9 +6,10 @@
 
 # 使用说明
 
-在[发布页面]()下载打包编译好的可执行程序后便可直接双击运行，由于本人时间有限并没有为其编写图形界面，故运行会会显示命令窗口，通过在窗口中根据提示进行交互即可。
+在[发布页面](https://github.com/CCBP/TangdouDownloader/releases/tag/v1.1)下载打包编译好的可执行程序后便可直接双击运行，由于本人时间有限并没有为其编写图形界面，故运行会会显示命令窗口，通过在窗口中根据提示进行交互即可。
 在使用过程中需要注意的是：
 
+- 🔴**打开后需等待较长时间才可操作，并且需要按一次回车键**，原因未知；
 - 需要提供想要下载的视频链接，**链接中必须包含`vid`参数**，或者也可以直接输入`vid`编号；
 - 使用**回车键**（`Enter`）选择默认值；
 - 由于使用单线程下载，故下载速度可能并不会很快；
@@ -48,6 +49,15 @@ Moviepy - Done !
 Moviepy - video ready d:\Workspace\Python\tangdou\Download\安徽金社《母亲》网红一夜火爆最新男生版 母亲节献礼附教学_edited.mp4
 是否转换为音频（y/n）:y
 MoviePy - Writing audio in d:\Workspace\Python\tangdou\Download\安徽金社《母亲》网红一夜火爆最新男生版 母亲节献礼附教学.mp3
+MoviePy - Done.
+请输入视频链接或vid编号:https://www.tangdoucdn.com/h5/play?vid=20000002258422&utm_campaign=client_share&utm_source=tangdou_android&utm_medium=wx_chat&utm_type=0&share_uid=#1652176249257
+请输入文件储存目录(默认为当前目录):
+[11.35 s] Download completed, save to D:\Workspace\Python\tangdou\dist\Download\雨凡《疯疯疯》64步弹跳附分解.mp4
+剪辑起始时间(默认为不剪辑):11
+剪辑截止时间:3.56
+是否保存剪辑过的视频（y/n）:n
+是否转换为音频（y/n）:y
+MoviePy - Writing audio in D:\Workspace\Python\tangdou\dist\Download\雨凡《疯疯疯》64步弹跳附分解.mp3
 MoviePy - Done.
 请输入视频链接或vid编号:Traceback (most recent call last):
   File "d:\Workspace\Python\tangdou\main.py", line 144, in <module>
