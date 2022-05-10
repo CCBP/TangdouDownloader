@@ -6,32 +6,35 @@ from urllib.parse import urlparse, parse_qs
 
 
 class HTML(object):
-    """获取糖豆广场舞视频类
-    :param object: object
-    """
-    def __init__(self,url):
-        """tangdou class init
-        :param self: self
-        :param url: 视频页面地址
-        """
-        self.headers = None
-        self.url = url
-        self.videoUrl = None
-        self.success = False
+    '''
+    Obtain the original video address by visiting the parsing HTML page 
+    and looking for the video tag
+    '''
 
-    def __getvideoUrl(self):
-        """解析网页获取视频地址
-        :param self: self
-        """   
-        urlResp = requests.get(self.url, headers=self.headers)
-        urlResp.encoding = urlResp.apparent_encoding
-        if urlResp.status_code == 200:
-            print(urlResp.text)
-            page = BeautifulSoup(urlResp.text, 'lxml')
-            self.videoUrl = (page.find('video')).get('src')
-            self.success = True
+    def __init__(self):
+        self.url = 'http://share.tangdou.com/splay.php?vid='
+
+    def get_video_url(self, url):
+        '''parse the webpage to get the video address
+        :param url: tangdou video link
+        :param return: 
+        '''
+        # Parse the url to get the vid parameter
+        query = urlparse(url).query
+        params = parse_qs(query)
+        if 'vid' in params:
+            vid = params['vid'][0]
         else:
-            self.videoUrl = None
+            raise ValueError("can not find 'vid' parameter from '{}'".format(url))
+
+        header = headers(self.url).buildHeader()
+        resp = requests.get(self.url + vid, headers=header)
+        resp.encoding = resp.apparent_encoding
+        if resp.status_code == 200:
+            page = BeautifulSoup(resp.text, 'lxml')
+            return (page.find('video')).get('src')  # original video address
+        else:
+            raise RuntimeError('request error, error code:', resp.status_code)
 
     def getVideoUrl(self):
         """获取视频地址
@@ -44,13 +47,12 @@ class HTML(object):
 
 class API(object):
     '''
-    Obtain the original video connection by accessing the API interface and 
+    Obtain the original video address by accessing the API interface and 
     parsing the returned JSON data
     '''
 
     def __init__(self):
         self.url = 'http://api-h5.tangdou.com/sample/share/main?vid='
-        self.state = False
 
     def get_api_info(self, vid):
         '''use vid to get video information through api interface
@@ -93,4 +95,3 @@ class API(object):
         video_info['addr'] = api_dict['data']['video_url']
 
         return video_info
-        
