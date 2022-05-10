@@ -1,5 +1,3 @@
-# author: gorquan <gorquanwu@gmail.com>
-# date: 2019.8.15
 import random
 from urllib.parse import urlparse
 

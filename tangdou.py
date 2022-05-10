@@ -4,6 +4,23 @@ from headers import headers
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
 
+def get_vid(url):
+    '''Parse the url to get the vid parameter
+    :param url: tangdou video url that containing vid or just vid 
+    :param return: return the vid parameter if parsing is successful, 
+    otherwise return None
+    '''
+    vid = None
+    url = str(url)
+    if url.isdigit():   # just vid
+        vid = url
+    else:
+        query = urlparse(url).query
+        params = parse_qs(query)
+        if 'vid' in params:
+            vid = params['vid'][0]
+
+    return vid
 
 class HTML(object):
     '''
@@ -16,15 +33,11 @@ class HTML(object):
 
     def get_video_url(self, url):
         '''parse the webpage to get the video address
-        :param url: tangdou video link
+        :param url: tangdou video url that containing vid or just vid 
         :param return: 
         '''
-        # Parse the url to get the vid parameter
-        query = urlparse(url).query
-        params = parse_qs(query)
-        if 'vid' in params:
-            vid = params['vid'][0]
-        else:
+        vid = get_vid(url)
+        if vid is None:
             raise ValueError("can not find 'vid' parameter from '{}'".format(url))
 
         header = headers(self.url).buildHeader()
@@ -35,15 +48,6 @@ class HTML(object):
             return (page.find('video')).get('src')  # original video address
         else:
             raise RuntimeError('request error, error code:', resp.status_code)
-
-    def getVideoUrl(self):
-        """获取视频地址
-        :param self: self
-        :param return: 返回视频地址videoUrl和解析状态success
-        """   
-        self.headers = headers(self.url).buildHeader()
-        self.__getvideoUrl()
-        return {'success': self.success, 'videoUrl': self.videoUrl}
 
 class API(object):
     '''
@@ -74,24 +78,17 @@ class API(object):
 
     def get_video_info(self, url):
         '''use vid to get video spicific information
-        :param url: video url that containing vid or just vid 
+        :param url: tangdou video url that containing vid or just vid 
         :param return: return a dict that include video title and video original address
         '''
-        url = str(url)
-        if url.isdigit():   # just vid
-            vid = url
-        else:
-            query = urlparse(url).query
-            params = parse_qs(query)
-            if 'vid' in params:
-                vid = params['vid'][0]
-            else:
-                raise ValueError("can not find 'vid' parameter from '{}'".format(url))
+        vid = get_vid(url)
+        if vid is None:
+            raise ValueError("can not find 'vid' parameter from '{}'".format(url))
         
         api_dict = self.get_api_info(vid)
 
         video_info = dict()
-        video_info['title'] = api_dict['data']['title']
-        video_info['addr'] = api_dict['data']['video_url']
+        video_info['name'] = api_dict['data']['title']
+        video_info['url'] = api_dict['data']['video_url']
 
         return video_info
