@@ -65,7 +65,7 @@ def main():
         if vid is None:
             print("请输入包含vid参数的视频链接或直接输入vid编号！")
         else:
-            td = tangdou.API()
+            td = tangdou.VideoAPI()
             try:
                 video_info = td.get_video_info(vid)
             except (ValueError, RuntimeError) as e:
@@ -107,6 +107,8 @@ def main():
                 break
             print('时间格式有误，请重新输入！')
 
+        print('[%02d:%02d:%02d<--->%02d:%02d:%02d]' % (*clip_start, *clip_end))
+        print(clip_start)
         video = video.subclip(clip_start, clip_end)
 
         while True:
@@ -116,7 +118,6 @@ def main():
             print('输入有误，请重新输入！')
         
         if save == 'y':
-            print('[%02d:%02d:%02d<--->%02d:%02d:%02d]' % (*clip_start, *clip_end))
             filepath = video_info['path'] + '\\' + video_info['name'] + '_edited.mp4'
             video.write_videofile(filepath)
             if not os.path.exists(filepath):

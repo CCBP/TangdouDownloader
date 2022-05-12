@@ -49,7 +49,7 @@ class HTML(object):
         else:
             raise RuntimeError('request error, error code:', resp.status_code)
 
-class API(object):
+class VideoAPI(object):
     '''
     Obtain the original video address by accessing the API interface and 
     parsing the returned JSON data
@@ -92,3 +92,43 @@ class API(object):
         video_info['url'] = api_dict['data']['video_url']
 
         return video_info
+
+class AudioAPI(object):
+
+    def __init__(self):
+        self.url = 'https://api-h5.tangdou.com/sample/share/recommend?page_num=1&vid='
+
+    def get_api_info(self, vid):
+        '''use vid to get video information through api interface
+        :param vid: audio id in the url, must be a string of numbers
+        :param return: return a dict that include the audio information 
+        if the request is successful, otherwise throw an RuntimeError
+        '''
+        vid = str(vid)
+        if not vid.isdigit():  # vid must a string of numbers
+            raise TypeError('vid should be a string of numbers not', 
+                            type(vid), vid)
+
+        header = headers(self.url).buildHeader()
+        resp = requests.get(self.url + vid, headers=header)
+        if resp.status_code == 200:
+            return json.loads(resp.text)
+        else:
+            raise RuntimeError('request error, error code:', resp.status_code)
+
+    def get_audio_info(self, url):
+        '''use vid to get audio spicific information
+        :param url: tangdou audio url that containing vid or just vid 
+        :param return: return a dict that include audio title and audio original address
+        '''
+        vid = get_vid(url)
+        if vid is None:
+            raise ValueError("can not find 'vid' parameter from '{}'".format(url))
+        
+        api_dict = self.get_api_info(vid)
+
+        audio_info = dict()
+        audio_info['name'] = api_dict['data'][1]['title']
+        audio_info['url'] = api_dict['data'][1]['mp3url']
+
+        return audio_info
