@@ -32,7 +32,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 ## 音频API请求
 
-糖豆提供了音频的API，可以直接获得此视频中所使用的歌曲音频（不带教学），接口地址为`api-h5.tangdou.com/sample/share/recommend?page_num=1&vid=`。
+糖豆提供了音频的API，可以直接获得此视频中所使用的歌曲音频（不带教学），接口地址为`api-h5.tangdou.com/sample/share/recommend?page_num=1&vid=`，音频接口获取的音频原始链接无`sign`参数，故可以直接下载。
 
 该接口返回一个JSON格式数据，对该数据进行解析后`data`属性的值为一个**数组**，数组的第二列中的`mp3url`的值为原始音频链接，`title`属性的值为使用Unicode编码的音频名称，所需请求标头同上。
 
@@ -56,10 +56,3 @@ ps: Python打包真是太麻烦了，不只麻烦，打包出来的东西因为�
 
 # 致谢
 <a href="https://www.flaticon.com/free-icons/direct-download" title="direct download icons">Direct download icons created by Freepik - Flaticon</a>
-
-# 音频API
-请求网址: https://api-h5.tangdou.com/sample/share/recommend?page_num=1&vid=20000002326426&new_rec=1&openid=td_e6e91cdfd15708590dc38fae5b1ae5f6
-请求方法: GET
-状态代码: 200 OK
-远程地址: 117.50.84.168:443
-引荐来源网址政策: strict-origin-when-cross-origin
