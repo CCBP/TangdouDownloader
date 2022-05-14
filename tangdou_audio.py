@@ -1,10 +1,11 @@
-import tangdou, os, time, requests
+import tangdou, os, time, requests, headers
 
 def downloader(name, url, path):
     if not os.path.exists(path):
         raise ValueError("'{}' does not exist".format(path))
     start = time.time()                                     # Download start
-    response = requests.get(url, stream=True)
+    header = headers(url).buildHeader()
+    response = requests.get(url, headers=header, stream=True)
     size = 0                                                # Downloaded file size
     chunk_size = 1024                                       # data size per download
     content_size = int(response.headers['content-length'])  # Total download file size
@@ -48,6 +49,8 @@ def main():
                 continue
             else:                   # Successfully obtained video information
                 break
+
+    print(audio_info)
 
     path = input('请输入文件储存目录(默认为当前目录):')
     if path == '':

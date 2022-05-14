@@ -1,13 +1,13 @@
-from unicodedata import name
-from numpy import clip
 import tangdou, os, time, requests, re
 from moviepy.editor import *
+from headers import headers
 
 def downloader(name, url, path):
     if not os.path.exists(path):
         raise ValueError("'{}' does not exist".format(path))
     start = time.time()                                     # Download start
-    response = requests.get(url, stream=True)
+    header = headers(url).buildHeader()
+    response = requests.get(url, headers=header, stream=True)
     size = 0                                                # Downloaded file size
     chunk_size = 1024                                       # data size per download
     content_size = int(response.headers['content-length'])  # Total download file size
@@ -17,7 +17,7 @@ def downloader(name, url, path):
             for data in response.iter_content(chunk_size = chunk_size):
                 print('\rtotal:{size:.2f} MB'.format(
                         size = content_size / chunk_size / 1024
-                    ), end='')
+                    ), end='', flush=True)
                 file.write(data)
                 size += len(data)
                 percentage = size / content_size
@@ -25,7 +25,7 @@ def downloader(name, url, path):
                         '▆' * int(percentage * 100), 
                         ' ' * (100 - int(percentage * 100)),
                         float(size / content_size * 100)
-                    ), end='')
+                    ), end='', flush=True)
         end = time.time()                                   # Download completed
         if os.path.exists(filepath):
             print('\r[%.2f s] Download completed, save to %s' % 
