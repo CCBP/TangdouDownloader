@@ -1,5 +1,4 @@
-import json
-import requests
+import json, requests
 from headers import headers
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs

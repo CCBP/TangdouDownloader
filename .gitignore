@@ -3,3 +3,5 @@ build
 dist
 *.spec
 Download
+python-3.8.3-embed-amd64
+*.exe

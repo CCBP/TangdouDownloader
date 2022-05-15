@@ -1,4 +1,7 @@
-import tangdou, os, time, requests, re
+import os, sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import tangdou, time, requests, re
 from moviepy.editor import *
 from headers import headers
 
