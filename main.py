@@ -15,7 +15,7 @@ def downloader(name, url, path):
     chunk_size = 1024                                       # data size per download
     content_size = int(response.headers['content-length'])  # Total download file size
     if response.status_code == 200:                         # Download succesful
-        filepath = path + '\\' + name + '.mp4'
+        filepath = os.path.join(path, name + '.mp4')
         with open(filepath, 'wb') as file:                  # Show prograss bar
             for data in response.iter_content(chunk_size = chunk_size):
                 print('\rtotal:{size:.2f} MB'.format(
@@ -47,7 +47,7 @@ def time_check(time_str):
     splitted = re.split(' |\.|:|：|,|，', time_str)
     if len(splitted) > 3:
         return None
-    
+
     time = [0, 0, 0]
     limit = (60, 60, 24)        # Reversed
     splitted.reverse()          # Reverse order traversal
@@ -81,16 +81,16 @@ def main():
     path = input('请输入文件储存目录(默认为当前目录):')
     if path == '':
         path = os.path.dirname(os.path.abspath(__file__))
-    path += '\\Download'
+    path = os.path.join(path, 'Download')
     if not os.path.exists(path):    # Create the directory if it does not exist
          os.mkdir(path)
     video_info['path'] = path
-    filepath = video_info['path'] + '\\' + video_info['name'] + '.mp4'
+    filepath =  os.path.join(video_info['path'], video_info['name'] + '.mp4')
     if os.path.exists(filepath):
         print(filepath, '已存在！')
     else:
         downloader(**video_info)    # Unfold this dict to pass parameters
-    
+
     video = VideoFileClip(filepath)
 
     while True:
@@ -119,23 +119,22 @@ def main():
             if save == 'y' or save == 'n':
                 break
             print('输入有误，请重新输入！')
-        
+
         if save == 'y':
-            filepath = video_info['path'] + '\\' + video_info['name'] + '_edited.mp4'
+            filepath = os.path.join(video_info['path'], video_info['name'] + '_clip.mp4')
             video.write_videofile(filepath)
             if not os.path.exists(filepath):
                 raise OSError('video save error, {} does not exist'.format(filepath))
-    
 
     while True:
         convert = input('是否转换为音频（y/n）:')
         if convert == 'y' or convert == 'n':
             break
         print('输入有误，请重新输入！')
-        
+
     if convert == 'y':
         audio = video.audio
-        filepath = video_info['path'] + '\\' + video_info['name'] + '.mp3'
+        filepath = os.path.join(video_info['path'], video_info['name'] + '.mp3')
         audio.write_audiofile(filepath)
         if not os.path.exists(filepath):
             raise OSError('audio save error, {} does not exist'.format(filepath))
