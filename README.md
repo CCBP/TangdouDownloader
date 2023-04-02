@@ -7,7 +7,7 @@
 
 # 使用说明
 
-在[发布页面](https://github.com/CCBP/TangdouDownloader/releases/)下载打包编译好的可执行程序后便可直接双击运行，由于本人时间有限并没有为其编写图形界面，故运行会会显示命令窗口，通过在窗口中根据提示进行交互即可。
+在[发布页面](https://github.com/CCBP/TangdouDownloader/releases/)下载最新版本的应用程序后便可直接双击 `tangdou_video.exe` 运行。由于本人时间有限并没有为其编写图形界面，故运行会会显示命令窗口，通过在窗口中根据提示进行交互即可。
 
 使用过程中需要注意的是：
 
@@ -65,6 +65,8 @@ MoviePy - Done.
     url = input('请输入视频链接或vid编号:')
 KeyboardInterrupt
 ```
+
+> Linux 用户可以自行安装 python 以及使用 `pip install -r requirement.txt` 安装依赖，执行命令 `python main.py` 运行程序
 
 # 实现方法
 
