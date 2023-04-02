@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8.3-red)
 ![Author](https://img.shields.io/badge/Author-CCBP-blue)
 ![license](https://img.shields.io/badge/license-MIT-lightgrey)
-<img src="https://www.ccbp.me/wp-content/uploads/2022/05/b812aff8b32a9412aa5247b0ff14889c.jpg" alt="banner">
+<img src="https://www.amrzs.net/wp-content/uploads/2022/05/b812aff8b32a9412aa5247b0ff14889c.jpg" alt="banner">
 
 # 使用说明
 
