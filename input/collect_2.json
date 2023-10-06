@@ -1,0 +1,904 @@
+{
+    "code": "0",
+    "pagesize": 15,
+    "datas": [
+        {
+            "id": 34384824,
+            "title": "\u706b\u7206\u7f51\u7edc\u6c11\u65cf\u98ce\u5e7f\u573a\u821e\u300a\u6211\u5728\u95ee\u82b1\u6751\u7b49\u4f60\u6765\u300b\u4e32\u70e7\u6b63\u80cc\u9762\u6f14\u793a",
+            "pic": "\/public\/tangdouhao\/2022\/1008\/8D7B03D01BE92248C84368EAC58F2003.jpg!space640",
+            "type": 1,
+            "duration": "369",
+            "hits_total": 237736,
+            "vid": 20000003811477,
+            "degree": 4,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/086C5AF4FC0FD469D545EF2DD2DC1330.mp3",
+            "teach": 1,
+            "good_total": 1360,
+            "comment_total": "53",
+            "time": "2023-10-02 20:19:03",
+            "uid": 1707193,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStgZctgvC5x+O1RB\/weq+0TexIVmlpDKlcH+5ROP9t2U1on+zOm8RqNolFF90nly5mO7QnxBh\/f166LukW9VZAlfY+Yrz9zLfPLx8OkVw8tk14z54\/3qeKGrBQTBZoP3SdA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbkjxbjzI0DTOVeEBSlGNzHiJNPFP+oGeAwFdvR+cbSKezcZTYZs8Drw6+9YInNUneJ3d33y9NVygVd5\/44xX1mjjkwdYrhr5u0+Bsv2VecLKE1I\/WZkGgJ4bRCIdBFFy+ez90HKDIIHh1GpIeG6gyHg="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuayqpIAX62RLtSQ6slkIRpU1LBIGQ28iFM6dNhx9dZyw4b6djtgc+YuyYjea6mc78ZtUB11NmVIlACCyhT32Tvm9glcmWsvU3Y++hqOt+nvca\/4jAGwXZjXUidCg4RlmMOzg==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiamarHj1tNlBeW+9vPVsv5G46lWoEPm17EQOO431BeMgzmYSUlq5uH9l25lJ\/gtnnbIkhEPUn5fQAoOcCMqBlKvTJgFZi4ueRn1S8Hm\/83joA=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuayqpIAX62RLtSQ6slkIRpU1LBIGQ28iFM6dNhx9dZyw4bKzt0aQbTjxpir6tG1sgPV4KPdI03jlKw29xtLx4IEX+iPvui9lusy9KQlwdPfspJgUM5TPDF8eE\/sx4WY13aNw==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiamarHj1tNlBeW+9vPVsv5GfFwhRJxDtdDjpF9aiIlMF38Qgt6YCPpfyJE0tFrnI2liR1vrEAopu0hq1EZFkzVuQIekby0G\/0Jb3Tjqk49n5Q=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStgZctgvC5x+O1RB\/weq+0Tc7qzKGCWbwuEdG50lRk\/lCyiam4UCFB4+OM6iFWRmpONzAWYUnwR81GUQJMovWAbMWLxVtiAA0tOG6lo6js5b7wTABChUyql5DZy4RrrPyJg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbkjxbjzI0DTOVeEBSlGNzHiJNPFP+oGeAwFdvR+cbSKeRker3V11zJ22md7jLO7ZodVBNCrDw9uvAB+FUcSI0UCAj1AvD\/JVf8uUXgJNXm8an3qq698Dq6688BD6tZJrhK4\/8GdPyU9B6me6jd1i4Zw="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u60a0\u7136\u767d\u4e91",
+            "avatar": "\/public\/avatar\/2022\/0510\/e1707193-1652184758.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 35838037,
+            "title": "\u300a\u963f\u54e5\u963f\u59b9\u300b\u91d1\u5178\u8001\u6b4c\u8001\u821e\u65b0\u8df3\u9644\u6559\u5b66",
+            "pic": "\/public\/tangdouhao\/2023\/0601\/B672227684FEB8588F1EEBEE44B2ACCB.jpg!space640",
+            "type": 1,
+            "duration": "739",
+            "hits_total": 363532,
+            "vid": 20000005349884,
+            "degree": 4,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/5024F88E6AB215296D31387DD4A47C9F.mp3",
+            "teach": 1,
+            "good_total": 2786,
+            "comment_total": "58",
+            "time": "2023-10-02 14:03:58",
+            "uid": 24429139,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "qiniu_h_1",
+                        "define": 1,
+                        "url": "PCmfJIgZQ\/4x1d5kCCtFz1hVmMmK5ZQNn2Ti77D+lBNw0tOyzapGosXDCs\/WsGlv4QwINH0bhC8vO8qH04HPZXPGqWJ5E4rnYhra+3LWa1yMfQL4y76x2HECnAKadDgXISyWJM8fi5pC8Vv7yfxVdA==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiY\/QfeTvlqvLNyr3eACS6QzklPkQunA\/K8mb4KV9Ib7AOGD7nOohh\/pSWEUjwJosdtsd3Fd20j0O0ZYhM9AGQjK7HxaA9+s34TOtwJdyPm17w=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStn3FSSKQssq4oepTsIOvQAwPg\/7M\/0j8OUs8tdsTBI3uUX\/Fza05MqOzrjkZJlhqkQuD3km5Ti4\/7SPw2h1SnL5a8rRheH46t1di0zRm1c3hayr5Cqwj8SrBF44gSul9XA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbnmpCfLC\/HwUHuyvH3zXkOZkRA18G8cvsozA3wSsHOo+0bhhQMzjo3vRFqZTywJqZ3Ls\/qBG6tD1IxJDzwFwO\/e612Yd7YqBnMs6n10Vst\/fw85U2vx5+s6ZOzJwspBbWkIUYfwBMPPnyx90EOY1xKo="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA7g2Xf2a6fUXSrQciWp5Pz0u1SHIxmMhTBR1B4m5LiJlTU2skWlsUXduEgo0kgUcFIWaVMF79Tt9CCP3x2yNqfd3OU37Eiq86m8zfI2Jok2EA==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiY\/QfeTvlqvLNyr3eACS6Qztu9awvFobsEGjDBA00i\/aTGPrUkaxn\/jjvKfWqC96R5FoZ2T9f9E7fUz3OyHKKo+c00fpjAK+hMeanvm07HuLw=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStn3FSSKQssq4oepTsIOvQAxdp4MlnBU\/\/ZqMhFeYezIkmCsN+fTZinmN13zPMRudmnbRsqeaewFO8ea8EeXiEmb5STEfx0R9Q06qy+QGWgT27ZFRWmtSEzRE6Yb3YByMHg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbnmpCfLC\/HwUHuyvH3zXkOZkRA18G8cvsozA3wSsHOo+ZBZ7mnM1\/fyf2ovPCF5rJ+37yulfbp5wEzWXPuyK+sQTPzGfu7D3saj8JAeeWtG3V2GGtgu\/D9Wixrn4\/jxCpiaV+tTsg82dW7feAsNGQxM="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u5c81\u6708\u9759\u597d\u5065\u8eab\u821e",
+            "avatar": "\/public\/avatar\/2022\/1128\/w24429139-1669607164.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 35481278,
+            "title": "\u9ec4\u6885\u620f\u7cbe\u9009\u300a\u5bf9\u82b1\u300b\u7b80\u5355\u4fcf\u7f8e\uff0c\u9644\u6559\u5b66",
+            "pic": "\/public\/tangdouhao\/2023\/0415\/A95870B2A24E017E7677D3BDE1A34438.jpg!space640",
+            "type": 1,
+            "duration": "529",
+            "hits_total": 46486,
+            "vid": 20000004973804,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/CDF9B27F5E5F71F619B679EF8ABA1B64.mp3",
+            "teach": 1,
+            "good_total": 473,
+            "comment_total": "21",
+            "time": "2023-10-02 14:02:01",
+            "uid": 5286,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYSttcjPHMHJbilvfsGiLH8bWSx5FLdNM7YEuJqJbcGY8lZQ5hA8TSZUPIOKAiUCfZPU7O7W6Xs7XNOtBSF\/54WOJoj2WYigrgbf3GjC0f0T81rmYn1rV75c9slz1yafyOh8g==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjIamQTqG3tt1LZTlUX3RKJh5W0DxZJBVwxICExpIjkyt4BBePaA1RBAw3sj9UbxvMYs2QEUFt+f7hTp+\/qLtkJRip19cJGZ9NiOHv80epGetFQ+XGQSraHuq40cfKZChKq0N7R7qeHPc8iNsjwQe3w="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA7+z28RX1VBEdH7XuVmFo+kCJbqkpiZd9L\/zXsmRkgMMs3vhvjZG\/2SoyQ5KuTsimXfqwpvQCaNNmmP4KiskBmICM08fEhhRDK\/8wWhLuTNtg==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiaX4vB3aldXSH+R4IlJlCdVlhnYQudeDpupIwy2nn1TjcwC++wB\/ybdxqKoCyciUOkqPYjsua0Q+4yjLwS+gDppasQ7VsOTHa04DtNEy3GwOw=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "acc_h_1",
+                        "define": 2,
+                        "url": "tklZFxcTCa8Ts71Q086AFbCL2gwN8JCheHGPNQaXnfCu+kCrfA4wojzluBh54xVDr5fgniK+TfCkjjxw6z1jX5LjN9GruWKDmwPG8Zf9YWs\/ZqWXU9T2eZS0mply6vhw41wCOAfC4Z96L8kM3Igezu\/lAYUD0gRcrry2cECAJp4=",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjIamQTqG3tt1LZTlUX3RKJh5W0DxZJBVwxICExpIjkyN8zJUayMWoWSrEDV\/cVLqXEmyuoKeLTcD9B\/h4HrBvOdq+eop3klvnMXYWZ4g9Lk+kxnqWD6COJR\/7Z\/OLQQRvtAFpic4krSSppU+FDYS1Q="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYSttcjPHMHJbilvfsGiLH8bWRLIkGuuxGLuKLllqQnL1FTaQgOsOPJqUFWyys93HN2sPyoBl1QJWuY453F+MhQhM6iyBu49AILsfS7VBRawTyLgf5izTcM9gKAiVR4Wi5\/Qg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjIamQTqG3tt1LZTlUX3RKJh5W0DxZJBVwxICExpIjkyN8zJUayMWoWSrEDV\/cVLqXEmyuoKeLTcD9B\/h4HrBvOdq+eop3klvnMXYWZ4g9Lk+kxnqWD6COJR\/7Z\/OLQQRvtAFpic4krSSppU+FDYS1Q="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u5c0f\u6167\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2022\/0124\/x5286-1642981363.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36420282,
+            "title": "\u96ea\u59b9\u821e\u7fe9\u7fe9\u300a\u9ec4\u571f\u5730\u4e0a\u300b\u738b\u4e8c\u59ae\u7537\u5973\u5bf9\u5531\u65b0\u7248\u9655\u5317\u79e7\u6b4c\u9644\u8be6\u89e3",
+            "pic": "\/public\/tangdouhao\/2023\/0831\/DD44CD94D046F2DBE5DA6F600ED9067E.jpg!space640",
+            "type": 1,
+            "duration": "627",
+            "hits_total": 82400,
+            "vid": 20000005963458,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/E6CCD4FC35FB17DA9B73DF1CCB83DC6F.mp3",
+            "teach": 1,
+            "good_total": 1284,
+            "comment_total": "154",
+            "time": "2023-10-02 14:00:45",
+            "uid": 385387,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA6RayIlFBvLGYPqa7LFqFjq0YznbLLAjnAMYSdZJFMbHd2bZESuP2mqXhQTXIH35b4jKufHZ\/jyOVhVMLtw9cwBSuhjQ69XERU+eJlZMM589A==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibWd8+7eUMAZRO6G+MULul\/IMPhCjFNJ8NCtT2Db+UW84unOWAvb4MBHqe\/m99Bt1vdXlrnBtdq8ANRXRpzycyeX7EplRj+hc0hIeHonW+aTg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1p+HLcm\/85PUgj920gbpzI6vFvAI3nh3v\/R5qs5tXGnlEwjzAMaSbXkgW5J2FNl3DXU30tif03E1Q+vmFJ7KI3AdqO9JdEkBjPF4\/KoifgvBQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dRlcbSMlEqZNyFsLZzwC4raCkCOs43nwMcbYD5KkWsamBPLx1RT+xth1S+ijwDIUHikfcSky0rkja5dLkhjxqrUPlU34qjafNjfq2EmFyMc8xrSwy1Rto5ABY59GPxs1cg="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA6RayIlFBvLGYPqa7LFqFjq\/nofN91IejyW5zGAEtfUWIdHc691eZkaD2Np0Z\/woe3NQeikUxI6g7pfPhl8z+40gqCZNqXQAdCkCpAQWE938w==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibWd8+7eUMAZRO6G+MULul\/jiYyCOHgJ0T\/VPI3PFuSCmJT7XlHR6VK4284Hf6uAVxs+7SdQP3R\/cq\/o876nCd6t968B+WqDH\/02R7saqtbIg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1o+lUaGB715xS27fJnAeArGHEBNQtV8JwlmgT+aZduhHGHddndhtORyGqGmg6Ufl9vTBXrGuoElBn4GXGIyr1DKRu4XJIHowY0BHf9o7P\/Ncg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dRlcbSMlEqZNyFsLZzwC4racwjWEGjNrlCLZfE+vKE7KG38jGajotMzniSUnfnpdBWnZttt0NDkfqOyoGVVlGYAM9bvv0nlGnmpf9crO06GqPdG6lhNOK7lX561cgh5b+I="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u96ea\u59b9\u821e\u7fe9\u7fe9",
+            "avatar": "\/public\/avatar\/2021\/0122\/a385387-1611313747.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36273331,
+            "title": "\u96ea\u59b9\u821e\u7fe9\u7fe9\u300a\u5c71\u6c9f\u6c9f\u5c71\u90a3\u8fb9\u300b\u8d85\u706b\u4fcf\u7f8e\u79e7\u6b4c\u539f\u521b\u9644\u6559\u5b66",
+            "pic": "\/public\/tangdouhao\/2023\/0730\/749E8EAA06BB3C6961B121A1BCFB3DA1.jpg!space640",
+            "type": 1,
+            "duration": "851",
+            "hits_total": 515743,
+            "vid": 20000005806526,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/DC27C1D23AC3B8D30856CBDB4B646235.mp3",
+            "teach": 1,
+            "good_total": 3861,
+            "comment_total": "238",
+            "time": "2023-10-02 13:50:06",
+            "uid": 385387,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA77Fn7E1habLVcFcC5ZRwsyc3mgfewOwdhdMf44hJtQJ4hOXSwYv\/9bnfIzsZB+hSJN+0A1a3o4A+HvlX+VfuMlCRmS08\/RNzwdCOPjOVLuMw==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYlpvD9dka+v6OmBNAzK03vTHecn5Mfh729XfDVLrv2TLzJrLaa1x5A+HnkLtxVk5F\/RLdFvw\/RgLj0ycWtiO7o4bWxsqQaudCnUleBWSDJug=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStoBGgLAlwhdxOZyw4V3XDQ5AZ53T9U9uJ2VO64J9yBToG92HUjs6pOCvsM+QJCcKoYm2OCQ7sycrfREaALiPT\/l8UAsQjZkTZUZBE7kzYcwRfFy5TKlabDa4xMjHeM\/VUQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRboUiCny8bZl2wkRbYhPFYHyraq0doWZ6JoZQDDvlKzoXR\/kYNQ3pTBw5h2f8yA4Ce4XbSmiq\/jzP2Rea2ZOrEu6H3e7M3GbQOLp\/4OjXUcHFpKCP\/j7hayc2C3+OY0ruXOoPwMXQbxWTgE8me8xo9bQ="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "acc_h_1",
+                        "define": 2,
+                        "url": "tklZFxcTCa8Ts71Q086AFWjQmPwfy1dYZBUy8IpnxPq6+16rqEr5L4ZVgsKqTtVEbw+AcjAva9EMtCouAHUibScCNdvquDti5RS63EHxGvcedS\/kJzi6OB4wo5AJ\/8\/lfsbYzso5kXDQ\/HVZo+6RfeW\/pvW6E3V57sxmEvtRzCI=",
+                        "download": "4b0zy4S9pDdYjn4e9MyRboUiCny8bZl2wkRbYhPFYHyraq0doWZ6JoZQDDvlKzoXFQUlAgKXeJNuBF0K4aFixt\/Eq4a9rg0pbJ2eXbBgIxL94EwcgkdTj3iwbEr7Be19pYdgkaaeVRKLrWuPOcS0tSLrM61UqEqjmczilL9awQ8="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStoBGgLAlwhdxOZyw4V3XDQ4T3ACbg2G3CfrIMOXpYqAOFC\/bWuGxPK30y4j81+NcQLR6M0y\/MKbOdvdCCQLFuk4rKZmesSq+Q\/\/0ivDxIpK+jIPHjowuAt0U4qgllbRdQw==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRboUiCny8bZl2wkRbYhPFYHyraq0doWZ6JoZQDDvlKzoXFQUlAgKXeJNuBF0K4aFixt\/Eq4a9rg0pbJ2eXbBgIxL94EwcgkdTj3iwbEr7Be19pYdgkaaeVRKLrWuPOcS0tSLrM61UqEqjmczilL9awQ8="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u96ea\u59b9\u821e\u7fe9\u7fe9",
+            "avatar": "\/public\/avatar\/2021\/0122\/a385387-1611313747.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36396692,
+            "title": "\u60a0\u7136\u767d\u4e91\u300a\u6211\u5728\u8349\u539f\u7b49\u4f60\u6765\u5a36\u6211\u300b\u7206\u706b\u65b0\u6b4c\u65b0\u9896\u72ec\u7279\u6c11\u65cf\u98ce\u821e\u8e48",
+            "pic": "\/public\/video\/2023\/0826\/20230826131808_981433464e98b103fd00.jpg!260",
+            "type": 1,
+            "duration": "354",
+            "hits_total": 7524,
+            "vid": 20000005938279,
+            "degree": 4,
+            "head_t": "0",
+            "end_t": "0",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/B33805B7067D4296F0C92AFF543C4684.mp3",
+            "teach": 1,
+            "good_total": 904,
+            "comment_total": "38",
+            "time": "2023-10-02 13:46:11",
+            "uid": 1707193,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1rvOdrsifyul4f12V0j0Su2uPp5TIJrbCUcf1hgUiJpp\/BDYHKp97EMZt02jPnxgSArONXk568vIzeSai7F3zwqPfmu1kewVvHEiNV0XqaEDw==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dS8eDhPgnBAFpomK1WTsnq3uqwfKxsIzbT1IVYV6UHzBo96fNbrmtOpazXxRR5V6VooN8sfmzg8JooR\/yhfMdU07WDTG0YqK6AgAOwDmrG2yFzVnWVEd43dswtsQH6hbdA="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA4wUlfaxwgZsNs6dpfyQMY3FT+lN4NEAy55u4v+\/q7DC6LR5iyF8tO3f3J6\/9pHbsff8HQK7pqQRN9sBR5eolsH94SUGFFn6cvUoDjQEJm\/kA==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiZuD7HZtJWz52f9RIh65kIBS\/y+smIqvPFm7jxjHSp7JLje9xjEnj0\/n7vrHZmkN+RtiNrSKuVjZoA+JkVBN3MYmkeGulPYkOFnSp6YH+vK0A=="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u60a0\u7136\u767d\u4e91",
+            "avatar": "\/public\/avatar\/2022\/0510\/e1707193-1652184758.jpg!small",
+            "ctype": "",
+            "width": "720",
+            "height": "1280"
+        },
+        {
+            "id": 36362967,
+            "title": "\u7206\u706b\u7ecf\u5178\u9ec4\u6885\u620f\u300a\u592b\u59bb\u53cc\u53cc\u628a\u5bb6\u8fd8\u300b\u7b80\u5355\u4fcf\u7f8e\uff0c\u6df1\u53d7\u5927\u5bb6\u559c\u7231",
+            "pic": "\/public\/tangdouhao\/2023\/0819\/05ACA43A4E1E5E51A944AFCC61DFC276.jpg!space640",
+            "type": 1,
+            "duration": "760",
+            "hits_total": 23286,
+            "vid": 20000005902185,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/657C5BB7CD2D52A2F1D27513C7D93269.mp3",
+            "teach": 1,
+            "good_total": 215,
+            "comment_total": "11",
+            "time": "2023-10-02 13:43:17",
+            "uid": 5286,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "qiniu_h_1",
+                        "define": 1,
+                        "url": "PCmfJIgZQ\/4x1d5kCCtFz1hVmMmK5ZQNn2Ti77D+lBOIDgmc\/oFF4JoCcGvZdvSq2j2HwJyW2+KU4A6ASmy5sOUroYOhIoK3q1rbGTSYv7UTOW11CEJEqQnfcmOCPAK4fsYt5hYX8xemqo+4bMUX+g==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYiKiK5F0N9GEQfUhWq3HxzcB6xf2R9TzFReymOspAjdpWlbNHTjDaEVkId8UydnySykCoDQ7gFnkHF0ue+enFjTTr0s73Nt\/OCvv\/r4sleRg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1q5ZvLVsv8PUA3w0IDUOI0RrDKTD13xCkYBsyEh9B5dsF8R7HHd71dC0w+p6kQNWl7jBRmI6jGRVYPL5z+KL354j+QYIDyDOZO3gvKWCauvGA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dTBEx4\/pICuDkylmQgPBvFUgsKQtbUxiedBInRhQIq6uQpWUojOPTrklNqqv44gbfcc6jx6nhc0qA8lpu35YJvabmzJYWk5FC7+ubyQTICzQ2Sw0s+QmqHliMO6aJmyFns="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "acc_h_1",
+                        "define": 2,
+                        "url": "tklZFxcTCa8Ts71Q086AFUJyag1ikgkVbUB0MfaOQQDy2lq7bodtOIXG8+AeB1JxmLi3Y+P7R9Re2XOoo0DlkyG5FmHnjaOUmOCCDwpwgKi6nKEQH354fDXGiPfbFMCf\/tNAyTnm9ys58NyonJgQkjLfukkltGNwoDi6yFj2fU0=",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dTBEx4\/pICuDkylmQgPBvFUQSV7BAB8wbOO5Kesc\/K28Zq7951Up075Z8d+3Oym1AMZeCWT9DlrN0SOw6UyBNhi9kbscAqdHZy3HQSz5X0fhrh3iuZFFXd0WZ1\/QlzIVt8="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1rI\/lRLhGTBYOO\/vmL9bl+lw3tBamaJTMOp\/ZO2BS\/3fhvixtKeL8EeATxaarLmXKfID8fVeYRZETED0X1TKXU6oeiZkkdlquY3GYxQzejjbQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dTBEx4\/pICuDkylmQgPBvFUQSV7BAB8wbOO5Kesc\/K28Zq7951Up075Z8d+3Oym1AMZeCWT9DlrN0SOw6UyBNhi9kbscAqdHZy3HQSz5X0fhrh3iuZFFXd0WZ1\/QlzIVt8="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u5c0f\u6167\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2022\/0124\/x5286-1642981363.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 35889980,
+            "title": "\u73ab\u9999\u5e7f\u573a\u821e\u300a\u7b49\u4f60\u7b49\u4e86\u90a3\u4e48\u4e45\u300b\u6292\u60c5\u4f18\u7f8e\uff0c\u96f6\u57fa\u784032\u6b65\u9644\u6559\u5b66",
+            "pic": "\/public\/tangdouhao\/2023\/0612\/7B08CD6858222B07386665395D50E386.jpg!space640",
+            "type": 1,
+            "duration": "247",
+            "hits_total": 16625,
+            "vid": 20000005405177,
+            "degree": 4,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/A52031E5D147CB1BE66F90880E18AA07.mp3",
+            "teach": 1,
+            "good_total": 880,
+            "comment_total": "7",
+            "time": "2023-10-02 13:40:13",
+            "uid": 79648,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStn3FSSKQssq4oepTsIOvQAyM+YgCCiI1ooPcs\/vc1YxuCiYzkAoB+2sSh\/G4sclAL6kBOo2H1drVEDzuzH1VbLKlNVTzh8J09gtaOgqhYDrnUjZG9h8MOkyA2Uh\/MsgXgQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbnmpCfLC\/HwUHuyvH3zXkObcmHgxQiKGs19HZK4lkBAonx1lIi9cSdEXP7XTM4xApQNwPWcMhFflqOu47+q1+pSu6VwjmPFEfaLQk1JyX0dv7vQm3\/Rq7oCnLPuCpT0mkIaqG6k\/Gi9hTOGUzaCJEN8="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA58FranbeQG+BEPoUFTzDazctgsvqgAVxx3\/42K816ygoVCNjrrFEhKcL+1zhCrO5VCqUAP7cr693BqWnWlj8iN9xCFhcisJ587WadM8uqFqg==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiZRKeda9hi0Om2mJ0oPMLNbg\/0WLVqsrRl5vQakRutgY4FNec6LGv\/p4x1dS1yDrFG6xFqPJ81A+znrYs3uLwrfpCRjSjNXox\/IJNXGEzObAQ=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu_h_1",
+                        "define": 2,
+                        "url": "PCmfJIgZQ\/4x1d5kCCtFz1hVmMmK5ZQNn2Ti77D+lBOAxJzn4bVlpK90LcgSUXREfyfjCUtYlRkmjdCPOILSLydSC0DWpauPUFdhxvTqQ9\/6TXuno4Y8D75Mh42WLe6pe9E\/LYPswWOk2RQSMWf3+Q==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiZRKeda9hi0Om2mJ0oPMLNbx\/rL8VXZVfDgh8a6aFVQ+C71KCGKYJ3WttlFUf4+LOS\/389JbSqnLWsyCG7v\/w+JE1ZW9Sfe1KfnWfwCWAhEVA=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStn3FSSKQssq4oepTsIOvQAw83bKw78AIJDHcXcZEPr1ZCdsWbTcZ3MPI+yLfwdHXZ6bT2EPhPj40ZGepUz6HwslexutFLAqL2aQdwqn5Xc\/WPcQ2Rhhu55Il56bND316QQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbnmpCfLC\/HwUHuyvH3zXkObcmHgxQiKGs19HZK4lkBAoSRChlWh3PKxz74\/TRfU5epHePIgwq\/TrrwQU8\/kpVHvo8pfreGyPKcf04nri3FnwUMTitT2t\/rU2Ri4hQPuFHYC+9va2EdXUNKSFHC1zhO4="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u73ab\u9999\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2018\/1106\/m79648.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36396156,
+            "title": "\u300a\u6211\u5728\u8349\u539f\u7b49\u4f60\u6765\u5a36\u6211\u300b\u7206\u706b\u539f\u521b\u65b0\u9896\u5927\u6c14\u6c11\u65cf\u98ce\u821e\u8e48\uff0c\u592a\u7f8e\u4e86",
+            "pic": "\/public\/tangdouhao\/2023\/0826\/2291B7CCA65B9D189A4558C125B33D4B.jpg!space640",
+            "type": 1,
+            "duration": "645",
+            "hits_total": 129398,
+            "vid": 20000005937670,
+            "degree": 4,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/37E42A434B315FB68D14FCB8FAFF7899.mp3",
+            "teach": 1,
+            "good_total": 1427,
+            "comment_total": "38",
+            "time": "2023-10-02 13:38:24",
+            "uid": 1707193,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1qle88AEWOzXOYeoQNtB1m3uVw0aDgMB0PL5q6Kcut1msfXVW41G+HwKf++NLeaCtEOUQ6De6g9zg8bkmzxeXomtxXTscNhzzQBkCZ9FmlBxA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dSiAmUHMR4UVmwOtcEseZXmN48j42LERJknZR\/2Gm60eaNSNU340LBmbI5dtRNUFx\/wDr+8jFtEumjoHLGqUoIIl8shJSn7jNkdzcv474aVak\/7PuQDjQlcdE+wcn5z2uE="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA78PdLxguT3dK\/QDJR\/OAUUWARM+6IfRV8wjCR55dM+GpjSNqvASf4bKisihtw4BTUxz0iZkm5WtCEKH8Naz0wwHjjj7PO6W1CX0OOhpA5nLg==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYkXSWZ5VLyz\/bdx8D6wATJeHjuQqBZfh+sc+L0EtrtCjFiIjM5qqpO6Nz14w6PMCRFgxiR6lwypD2IasRjMfo014LPnjKts4munxhqxvl00Q=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA78PdLxguT3dK\/QDJR\/OAUUg7ng2j43KHHBjn3a688UHRmqyNWIHysU3W1ge04LlcDtxtXDJgJ\/du7SJQS+CT3rWpbUbKmpZy3Ro3fK1xW6bw==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYkXSWZ5VLyz\/bdx8D6wATJ+SGHyxjqyFCHimm\/noeRINRUAGD2l8oiZqeeHw9U2DdjGu\/fH2aycB9rnd2RaGqharlOVqnkzPPxVFnWT\/7EeA=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1r7CXqvjnCIJijVA2uygjPaF9f2f0cuASKB+pYisHRaC+Dcd1Kh\/gG3znENXE7WhIbGjJ8g52VCE6shJzBZwHxghoCKdx9DlKktXHV2PZH9CA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dSiAmUHMR4UVmwOtcEseZXmv927LhxVUpTMrzMavmbJKJszFKQMgCKRUkcvBCBpXdARANSeVBK5vImux9o8Sdp4gA+eB3F7rLWc6gtHK5JTi0YRn3pMRCbraTB2DYvjT2M="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u60a0\u7136\u767d\u4e91",
+            "avatar": "\/public\/avatar\/2022\/0510\/e1707193-1652184758.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 35430678,
+            "title": "\u60a0\u7136\u767d\u4e91\u300a\u4f55\u65f6\u4e86\u5374\u8fd9\u7275\u6302\u300b\u6700\u65b0\u7248\u9189\u4eba\u67d4\u7f8e\u6292\u60c564\u6b65\u9644\u6559\u5b66",
+            "pic": "\/public\/tangdouhao\/2023\/0406\/CA013BE3B4E33FAF6E2DFE21680D5D11.jpg!space640",
+            "type": 1,
+            "duration": "679",
+            "hits_total": 37097,
+            "vid": 20000004919889,
+            "degree": 4,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/E207948E9490CB773538741DDE17D8B3.mp3",
+            "teach": 1,
+            "good_total": 1044,
+            "comment_total": "53",
+            "time": "2023-10-02 13:32:17",
+            "uid": 1707193,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYSttcjPHMHJbilvfsGiLH8bWSq\/616p5L2\/vw8blFRRimfcsWm+xlRHEPFs5T+u2Rv5K5LqCFQ8BLFdmyh0YAuQ4g4qD2RJM1XEdQ8PBPKSxbLp1AlhaEf+QVagR3mHz15RA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjIamQTqG3tt1LZTlUX3RKIEMdcEar8uGoM5NuAEk6Z66RsFnALWPNYnSMaLhGv2XHTqoISu5dd6gRQPiznpABFQ0fRE7YY0IFzFn5yjdXSlTNdJlOaGIJwSDbxBExLEEuz2t6BeAtRQs\/boWvP5QOI="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA6wNQzZWWi8dKzu6buV4saum5dAYiPy6WwI2YX7dtzXGvQWtWUhB6+J7GLLCdl+F5Bdq4qnqtXBgW0Tlh8NqX19Zfy7K3SUEuhp\/AUn5NtlGQ==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibt4UP8RJZq\/hzOiMQH2UY1S4nR9gSYOASDnGvXMCcRGyytvnrAInG94PFpe0yIVZkT4wlMGAdFVUFeOmaMK5e9OU9S1xE99EwW+2lZOyn8Xg=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA6wNQzZWWi8dKzu6buV4saurJpT6iGZF+pb7Z4ShooWfr467q4P96U05\/q8T3hXzJNl6gnqdO+cOWlRoonafyqI0jI4ehCBMuUai\/tSUclB8A==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibt4UP8RJZq\/hzOiMQH2UY1xq3Mwja1AoUM\/YCHN4+7Z1TdqUiJ88ANKGeL4A5Hc043dHGOHhwSNrXj232mA4HHzzMx\/9GCJ0mHSiL3Fs1vxQ=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYSttcjPHMHJbilvfsGiLH8bWT2rVoCcRvfwEguozd6mMM7p+F3cDK3\/vMR+nC6p7RnygLszaibt7hcbhF60CoAFlH2lbJfkV3NgRRXD\/5Qe330nJEJuMid+6VjOhLVXLjWjg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjIamQTqG3tt1LZTlUX3RKIEMdcEar8uGoM5NuAEk6Z65R8SDpeJ8VxSofnuVD1zoD8V+IXDR3yTIjrd0qZKe+MCH80gVp23g8SMwJtolmyR2L2d1wbx+FEGynLMQiwh+6ZwSdC7YElxLdw3OUPjKhA="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u60a0\u7136\u767d\u4e91",
+            "avatar": "\/public\/avatar\/2022\/0510\/e1707193-1652184758.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36586603,
+            "title": "\u9633\u5149\u9999\u679c\u300a\u6cea\u86cb\u86cb\u6389\u5728\u9152\u676f\u676f\u4e86\u91cc\u300b\u65cb\u5f8b\u4f18\u7f8e\uff0c\u597d\u542c\u66f4\u597d\u770b",
+            "pic": "\/public\/tangdouhao\/2023\/0925\/631209CD22B4C14AA6BECF8AA02134FB.jpg!space640",
+            "type": 1,
+            "duration": "374",
+            "hits_total": 4357,
+            "vid": 20000006138289,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/816990F8BCD67B17707A7BA7A2EA4E1C.mp3",
+            "teach": 0,
+            "good_total": 781,
+            "comment_total": "7",
+            "time": "2023-10-02 09:48:29",
+            "uid": 20896280,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStjsdMuKXX6Nm9dlWMqKCQJp4F7bDsGCdw5Al\/rdE5gCNYk1ix\/vRTNoUJ3YHg1UNcZWDwDEb8kJSjnXfXVz7Qb3bKQvrkchIsAherW9ClWmC78DKCTCAbmj+Ahci51tWBw==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjF8yQ9JPVOooyWON\/3++tK7lkLpHWfivlQQb7CPR2RWXuyY87tXn65Km07z9+1WQPSfzTXnPPodaXLHvH5Fsz65Jh7ggxN9ecR7LHOZM1vdLv56SeXJ7tt80E2jnOfhSU+ZBdOvjM+kNVgqPdhdByE="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA60nXHb2Y\/fOf0Io01VyDyx8wrffQc6WstAkQEqCFCi\/fskhyQcRhs2WR+4wgOoDnBPrDCCDjrQTuaZwwyYPxmrmyhtzMFo8pw0Sq+7jktXdw==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYMdTQMAOzRUG\/PqVlvOOpxvdSKckWE2cYSwdW6aV7Ao\/tp3e5Gj1B6\/9nEDk+15WJ+l4xzjXeqq8dw4JgcBIv2SvYLs8b6v1y7Mz1Lqqz6Gg=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStjsdMuKXX6Nm9dlWMqKCQJoRYTpghxAdugwN0LDupDLU7bOeI8D+r6EJTomsJEAI8NBDKbRprQY2eH\/TyOPEJmiUnmjkjBNugIGgIErlH+ERDRiMHmc8wSUKoi1BzqLqCA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjF8yQ9JPVOooyWON\/3++tK7lkLpHWfivlQQb7CPR2RWXNkfy3xlNQH41UmeDSLxiX7y3lNaYYuETNjuSAToS\/3kT8zMNSrWM5D21LjcT\/lRkN3stY0Ay+doj1NZcmFs5dUhcsTUUlUjEKW1v1RWYVo="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA60nXHb2Y\/fOf0Io01VyDyxHWQr6ZkQA2C6wTBQMN5W8XJih4dm6lwtiY9DZqFc9FTvpJleI4CHmcVSnbXvg9Hy6Aon7hyHbHQP3DNtqS2vAg==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meiYMdTQMAOzRUG\/PqVlvOOpxbI0ZzBIu95Xh5KQoiUQ8QhORI+5xomt7Lm+bLopxyk9ZXBMib8gDm+CdiwH5\/Cf5IpzTZJTIyC9XGL4QI\/bUnQ=="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u9633\u5149\u9999\u679c\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2023\/0220\/y20896280-1676851088.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36404119,
+            "title": "\u4e3d\u51e4\u5e7f\u573a\u821e\u300a\u9ec4\u6cb3\u6c34\u4ece\u6211\u5bb6\u95e8\u524d\u8fc7\u300b\u4f18\u7f8e\u5927\u6c14\uff0c\u8361\u6c14\u56de\u80a0",
+            "pic": "\/public\/video\/2023\/0827\/20230827212701_13390916.jpg!260",
+            "type": 1,
+            "duration": "223",
+            "hits_total": 8030,
+            "vid": 20000005946195,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/20000005946195.mp3",
+            "teach": 0,
+            "good_total": 105,
+            "comment_total": "7",
+            "time": "2023-10-02 09:45:59",
+            "uid": 13390916,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "sd": [
+                    {
+                        "cdn_source": "qiniu_h_1",
+                        "define": 1,
+                        "url": "PCmfJIgZQ\/4x1d5kCCtFz1hVmMmK5ZQNn2Ti77D+lBMp57sGXhsOtJsjfzHRFwrnoWyw+c+MiuwBPdOvOJc5ChWPR5nt095JG3LPIu3\/mSVhw0fS+4RxBVMQ1rsyROulFVoD\/OXKPf2rAPMMXOUfTQ==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibtfvVULQwRbU+murPAKRvWj9jYDd7MTH4mjW5Okuod5HqMdMBP9+DYLdDSkQwfGj8A84O8Ez0Nwp2scqZn0PScrUYFrpbtln3bmO+hSzZAwQ=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStok3xb+tX+ddWWWIWH8Gt1rm6AiDOMnW4qkLfYN86KToFomNXQQrYuG2pcqBS4siHJILAJcueeqNjmqDXxRW1kiARlkT0qCegnFNckuf0gazDtPw2L3D7QEX2Prz0agXgw==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbjCWss2wauKQNyQtkjo09dSAUzhcmuFIFveDznkpMUvvb9aKiJ2b+MW9AiZgqMIcLLzbYqX+z4ZN2RFgJXdrzVcLBbCu+SAMKRIB6MhKoPfTy0R\/jtSNzhfDgy9glkLB7GiD6QM2cYGyhZGA1ULQO4Y="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u91cd\u5e86\u4e3d\u51e4\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2020\/0211\/n13390916.jpg!small",
+            "ctype": "",
+            "width": "960",
+            "height": "540"
+        },
+        {
+            "id": 34060274,
+            "title": "\u79cb\u6708\u821f\u300a\u9001\u60c5\u90ce\u300b\u6000\u65e7\u821e\u66f242\u6b65\u7b80\u5355\u4f18\u7f8e\uff0c\u597d\u770b\u597d\u5b66",
+            "pic": "\/public\/tangdouhao\/2022\/0821\/5C2ABD709ADD5E29A938DE92E6E34AAA.jpg!space640",
+            "type": 1,
+            "duration": "272",
+            "hits_total": 156277,
+            "vid": 20000003464346,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/1030F77BF16427DC8EB2E96F4CE0547C.mp3",
+            "teach": 0,
+            "good_total": 1022,
+            "comment_total": "29",
+            "time": "2023-10-02 09:38:56",
+            "uid": 568407,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc_h_1",
+                        "define": 1,
+                        "url": "tklZFxcTCa8Ts71Q086AFZ8hpPyDbo2ULK1TlSOPc32n4FbZBLcWVvEXxFCl3byLSsgBCaodUa\/N1eB5zKxvz8FG8do1mD1bPyRRdOlk6vVsvZkC\/hh86KFmt86srlVFP8YOERV\/rWO51vJPT60W2tLOl69h2BEtqH5FsHXnLyc=",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbqcPoIVple4iAXviXEop4U5YL5khZJJY\/U7TcWRtdHDnL4m5R2VFAgyLIPP1OMcV52ZuLfvQQXgZDVEPxGONlvWSQcVlyrceQEisbtSx\/KTqBqqN8Q\/qgnzp9+pDcieR4WJqoU67X9You9gpKOmehd4="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStgNx2T3IjOkqcYcTHKnSxmQyn2KVDynPNJg6CCwe1\/OIWuEwv6IfrhUwCBoB2Spin2qYQCF55EtUsK4uMtssRBAUYEQ\/CB\/Z1J\/LIWjmaW9z4slgUc275B+LTjeorJGZHg==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbqcPoIVple4iAXviXEop4U5YL5khZJJY\/U7TcWRtdHDnL4m5R2VFAgyLIPP1OMcV52ZuLfvQQXgZDVEPxGONlvWSQcVlyrceQEisbtSx\/KTqBqqN8Q\/qgnzp9+pDcieR4WJqoU67X9You9gpKOmehd4="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStgNx2T3IjOkqcYcTHKnSxmS9UG8ROvRZloEgi3HcHypQ12IpGIWEK5VfpokjFHi2AFMQL1aYXvkTcHYllCpkUX9sY8nIG20mfQjkVsebDX+1P05gIYj+z30WmLNxP4vVSQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbqcPoIVple4iAXviXEop4U5YL5khZJJY\/U7TcWRtdHDnjYF1AMgesbsDkXT1lTEOFzFJGZtXHt0Notka6L3\/1+XAPh5X1AkELDNr1\/9UJW1Rl12hNdEwkT\/j9DBkI7axDPVLF736YdA5jOwuS2aw3Sc="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8Zwfuayq7tD9z9iHKp5CsQ3MteVj\/m8kYUhIXHYcu5Cg\/j5wEqa56xPyNQLcDwF\/PwuDQGxJQA4IQI4XDS2bGJPoBAm1jQIg37Gpy0bCYgZnOi4ZhGzxh48klkkBTA7w2vdSXMsQ==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibBynrHZPk+iWqBRKPVQKXzfim80S+k9r3X5vV2dwZqojzDpatxYQsT6TB3rQH6ccODoa8V8Xtqy6sYy3hRdimHiX0DmX7dPh7cvsp6u3q7iw=="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u79cb\u6708\u821f\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2022\/1026\/b568407-1666786115.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 33908016,
+            "title": "\u6b66\u6c49\u7ec6\u4f22\u5e7f\u573a\u821e\u300a\u9001\u60c5\u90ce\u300b\u5b8c\u6574\u7248",
+            "pic": "\/public\/tangdouhao\/2022\/0809\/03D0BD412272A6F82C224A34CAAC898E.jpg!space640",
+            "type": 1,
+            "duration": "418",
+            "hits_total": 28667,
+            "vid": 20000003306446,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/AA442169D99CBE31EBF03AB41CA8EB98.mp3",
+            "teach": 0,
+            "good_total": 219,
+            "comment_total": "6",
+            "time": "2023-10-01 20:43:48",
+            "uid": 21985770,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStgNx2T3IjOkqcYcTHKnSxmS6yYyGO7JiPVf\/RhJIuR3Syki2PaqBt2XnLPShYXfysITUgfZiYlTVOf+r7YdbI+nWFvc1zX4kpitpOBaNE3oCLyRVmy2Rx102Ha8Rw4UIQA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbqcPoIVple4iAXviXEop4U4FtiWZt4W0MsMrpR6MIhk+uUQhI1kGtrx5mTO0NkulT2ZyYsHZwXNNPT0Jlwo+BolK1iQPhEtuI+ANbfQYxokuydkRKmVCvw4ad5AkgDOylX29FWgvtyWcZFLa+qaBg2g="
+                    },
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8Zwfuayq7tD9z9iHKp5CsQ3MteVj\/L5X\/m3oYqinbgD041s39KIDbZISLQJ06dP\/VmuyKZBXOwW3YXdUYxHGIBgAgXELT2u\/5IRHAmLuQ5FebhC6yDsnRqPJSoOz3\/\/ZC1MMD9QA==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibbxWUTpJPYBlAaF2SzwjxAFEjYlTo8fpmBPte7JfwezCvyqB097EC9gG6zthvzTUSKfvgqcKKi8dlpqgdEsFEH8mnYVlQ0FCJxdZ3t1qoJAw=="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 2,
+                        "url": "CTq8OrBdqzsTSc8Zwfuayq7tD9z9iHKp5CsQ3MteVj\/L5X\/m3oYqinbgD041s39KY8zFLfFnEAE4tIPeZJ7kHrj\/0uIeFDgkR46SKjGfXEGg\/1hxgte3XVe50tYXLxdU39RpLKbg5p7H5mmf0ElHNw==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibbxWUTpJPYBlAaF2SzwjxAqapPIQQDiTkTsoflqLkKl2AwQkhKyS2vpfc6nd0KRG0BQPRVQkZwAXbsjehSn01R2mUrPZGexmUe\/6xtqRm0rg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStgNx2T3IjOkqcYcTHKnSxmTV92Bczl1Tnl106WaLcdKs2B+qUur1zUMdEXAbSkGpoNxAursihxjL0FQfa+iFce96dfB7VcJMgyALgULfJ+r+55993AZM4Bqp5MPYN8li9w==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRbqcPoIVple4iAXviXEop4U4FtiWZt4W0MsMrpR6MIhk+KQ6eXWQohNPvhJAPHO2HtiPEVBQudxWS5tZ5NqUCSimhv+T+M0SRyE2RWOyFxl8o7w5io1qbV1F6jTEulyTkqb9jQVjccKp63Eu7mO5aDzM="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u6b66\u6c49\u7ec6\u4f22\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2022\/0307\/w21985770-1646656480.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        },
+        {
+            "id": 36189396,
+            "title": "\u963f\u771f\u539f\u521b\u5e7f\u573a\u821e\u300a\u4e00\u9996\u60f3\u5bb6\u7684\u6b4c\u300b\u9644\u5206\u89e3",
+            "pic": "\/public\/tangdouhao\/2023\/0713\/C7A4BF9F479C1C068FFEF34D6B625464.jpg!space640",
+            "type": 1,
+            "duration": "171",
+            "hits_total": 27387,
+            "vid": 20000005717327,
+            "degree": 1,
+            "head_t": "6",
+            "end_t": "3.19",
+            "mp3url": "https:\/\/mp3qiniu.tangdou.com\/wuqu\/7FA1E79AB62CADBE063BC25BEDA11FFE.mp3",
+            "teach": 1,
+            "good_total": 902,
+            "comment_total": "8",
+            "time": "2023-10-01 08:39:51",
+            "uid": 2268841,
+            "user_hits": 0,
+            "fav_num": 0,
+            "videourl": "",
+            "siteid": "",
+            "playurl": {
+                "paid": 1,
+                "cost": "10",
+                "sd": [
+                    {
+                        "cdn_source": "qiniu",
+                        "define": 1,
+                        "url": "CTq8OrBdqzsTSc8ZwfuaysqhAobJTweGcLKaGgiydA6HUdbkkvROf\/SfZbw+KzGNs8A6FynzfiXdmFw+OLZZRrtyyrTa8S83uHP59OR6eTEprhuTCqYCIJjD8m4SrDWu5gnvFs2Mye3TaTy244WEvQ==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibqdNGxuW2kenv+kUVSPkeo2LVi7oQxPgXZ9aAiPCiyzUCeH0vJym7YD\/AVI\/RmB1HrZnF7sk5WbOddHYRoRceFSPoSSqhgEMBY6blQyvQ6Wg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 1,
+                        "url": "fQtB81kRXnPEFNjIEZYStoBGgLAlwhdxOZyw4V3XDQ7YNzlWvVreRlmTgxCSLgHX96PqVX4+6d3LaM7f70TsdijDU\/XttHQg0bSACg8K3mZFKLFe6N6ECHCB3soarnBCMiI2E0RyaxGmr8YsE0H8EA==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRboUiCny8bZl2wkRbYhPFYHyHSXosAspDWRojx1MUs4dFinfycl85F\/uuaR1npu4cT92AGak36+\/MZjngsMASv3EmOzqhXeCifiqOPf5XU7Cypn0xDUngzKfIebCmCFLvcVzYXUS2D9laTFI4yqivfHg="
+                    }
+                ],
+                "hd": [
+                    {
+                        "cdn_source": "qiniu_h_1",
+                        "define": 2,
+                        "url": "PCmfJIgZQ\/4x1d5kCCtFz1hVmMmK5ZQNn2Ti77D+lBO27PqV1xni8GtPL\/lvreXlpBWuZlMZELgQUmV5sxHu4\/WHHzaNpbs6X\/65CXYHvdVs02kk4351YlYEDoiLsjPgEODEO1\/HJr+AOEFezo1yng==",
+                        "download": "UeyU7Ho\/i24iwPUJCvzVqDPcEY5b43EeBgAWbE3meibqdNGxuW2kenv+kUVSPkeoxgeGPgyuW8dAvS1nYchbKe++\/+RZGMr+ufE3s0jafWxvT9wXRYcqGPxbCkJy4wl2d2kpXVddmO7vmQfW932RQg=="
+                    },
+                    {
+                        "cdn_source": "acc",
+                        "define": 2,
+                        "url": "fQtB81kRXnPEFNjIEZYStoBGgLAlwhdxOZyw4V3XDQ7pY370OoMBCGyI4C28\/8dNDHSmYd21yZtTR7a4BR+JJVTojQfLATTUzi4mv2YCPPPn4Ehz6KkKPdtGOl+bNLUvZIoHX1v\/p3dyrHDqKRVejQ==",
+                        "download": "4b0zy4S9pDdYjn4e9MyRboUiCny8bZl2wkRbYhPFYHyHSXosAspDWRojx1MUs4dFKihnY74erx+vjHTFK+SNAgVrd9RfllwPoO3qFS7BqdCwkUW5bOoPnTldkavRzXoMZBtlNN4VATMTp1YZ\/EFOkN1rDJGpB2AG3oaTwp1bnx8="
+                    }
+                ]
+            },
+            "item_type": 1,
+            "is_vip_video": 0,
+            "is_vip_free_video": 0,
+            "name": "\u963f\u771f\u5e7f\u573a\u821e",
+            "avatar": "\/public\/avatar\/2019\/0904\/r2268841.jpg!small",
+            "ctype": "",
+            "width": "1280",
+            "height": "720"
+        }
+    ]
+}

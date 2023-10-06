@@ -198,6 +198,7 @@ if __name__ == "__main__":
     is_bulk = input("是否批量下载（y/n）:")
     if is_bulk in ["y", "Y"]:
         bulk_download()
+        print("批量下载完成！")
     else:
         while True:
             main()
