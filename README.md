@@ -68,6 +68,8 @@ KeyboardInterrupt
 
 > Linux 用户可以自行安装 python 以及使用 `pip install -r requirement.txt` 安装依赖，执行命令 `python main.py` 运行程序
 
+> 支持批量下载糖豆视频，可通过抓包获取喜欢、收藏、下载的请求结果，将响应体保存至 `input` 文件中，程序会自动解析文件中的请求结果并下载视频。
+
 # 实现方法
 
 [糖豆](https://www.tangdoucdn.com/)视频都是以URL的参数`vid`作为引索，可以通过`vid`获得想要的视频。原始视频链接的获取有HTML解析与API接口请求两种方式。
@@ -97,6 +99,10 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 ## HTML解析
 
 通过访问视频链接，通过GET方法获得响应体，响应体为HTML文档，对其进行解析寻找`video`标签便可获得视频原始连接。但若直接访问`www.tangdoucdn.com/h5/play?vid=`是无法找到`video`标签的，因为该地址中的`video`标签为动态生成的。而访问`share.tangdou.com/splay.php?vid=`则可以直接获取`video`标签。
+
+> 通过对视频原始链接的分析，可以发现视频链接中存在 `{vid}_H360P` 关键字，其中 `{vid}` 为视频编号， `H360P` 为视频清晰度，通过修改 `H360P` 的值可以获取不同清晰度的视频，目前发现了存在 `H720P`, `V720P`, `H540P`, `H360P` , 但为了避免错过可能存在的清晰度等级，代码中按照 `level = ["H1080P", "V1080P", "H720P", "V720P", "H540P", "V540P", "H360P", "V360P"]` 遍历请求的。
+
+> 遍历多个清晰度视频链接并不会对速度有多大影响，因为 `404` 响应的速度很快。
 
 ## 注意
 
