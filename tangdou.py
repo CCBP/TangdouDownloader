@@ -1,4 +1,4 @@
-import json, requests
+import json, requests, re
 from headers import headers
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
@@ -88,8 +88,18 @@ class VideoAPI(object):
 
         video_info = dict()
         video_info['name'] = api_dict['data']['title']
-        video_info['url'] = api_dict['data']['video_url']
-
+        urls = dict()
+        video_info['urls'] = urls
+        
+        # Get a list of video URLs in different definitions
+        url = api_dict['data']['video_url']
+        clarity = ('H1080P', 'V1080P', 'H720P', 'V720P', 'H540P', 'V540P', 'H360P', 'V360P')
+        header = headers(url).buildHeader()
+        for c in clarity:
+            url = re.sub('_.[0-9]+P', f'_{c}', url)
+            response = requests.get(url, headers=header, stream=True)
+            if response.status_code != 404:
+                urls[c] = url
         return video_info
 
 class AudioAPI(object):
