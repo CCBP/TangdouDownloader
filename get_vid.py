@@ -7,7 +7,7 @@ json_dir = "input"
 def get_vid_set():
     vid_set = set()
     for json_file in os.listdir(json_dir):
-        with open(os.path.join(json_dir, json_file)) as f:
+        with open(os.path.join(json_dir, json_file), encoding="utf-8") as f:
             content = json.load(f)
             datas = content["datas"]
             if json_file == "download.json":
