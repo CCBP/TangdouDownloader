@@ -14,8 +14,12 @@ import tangdou
 from get_vid import get_vid_set
 from headers import headers
 
+import signal
+
+downloading = False
 
 def downloader(name, url, path):
+    global downloading
     if not os.path.exists(path):
         raise ValueError("'{}' does not exist".format(path))
     start = time.time()  # Download start
@@ -31,9 +35,11 @@ def downloader(name, url, path):
             return
         with open(filepath, "wb") as file:  # Show prograss bar
             print(f"{name}.mp4 {content_size / 1024 / 1024:.2f}MB downloading...")
+            downloading = True
             for data in response.iter_content(chunk_size=chunk_size):
                 file.write(data)
                 size += len(data)
+            downloading = False
         end = time.time()  # Download completed
         if os.path.exists(filepath):
             print(f"{name}.mp4 download completed, time: {end - start:.2f}s")
@@ -67,7 +73,7 @@ def time_check(time_str):
     return tuple(time)
 
 
-def main():
+def separate_download():
     while True:
         url = input("请输入视频链接或vid编号:")
         vid = tangdou.get_vid(url)
@@ -179,24 +185,33 @@ def download_video(q: Queue):
         video_info = q.get()
         vid = video_info.pop("vid")
         try:
-            downloader(**video_info)  # Unfold this dict to pass parameters
+            name = video_info["name"]
+            urls = video_info["urls"]
+            path = video_info["path"]
+            hd = list(urls)[0]          # Download highest definition
+            name = name + "_" + hd
+            url = urls[hd]
+            downloader(name, url, path)
         except Exception as e:
             print(f"exception: {e}")
             print(f"{vid} {video_info['name']}.mp4 下载失败！")
         q.task_done()
 
+download_queue = Queue()
 
-def bulk_download(max_threads=5):
-    # Download all videos in the vid_set
-    path = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(path, "Bulk_Download")
+def batch_download(json_dir, max_threads=5):
+    global download_queue
+    path = input("请输入文件储存目录(默认为当前目录):")
+    if path == "":
+        path = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(path, "Download")
     if not os.path.exists(path):  # Create the directory if it does not exist
         os.mkdir(path)
-    vid_set = get_vid_set()
+    vid_set = get_vid_set(json_dir)
     td = tangdou.VideoAPI()
-    q = Queue()
+    download_queue = Queue()
     for _ in range(max_threads):  # Use 5 threads
-        t = threading.Thread(target=download_video, args=(q,))
+        t = threading.Thread(target=download_video, args=(download_queue,))
         t.daemon = True
         t.start()
     for vid in vid_set:
@@ -204,13 +219,28 @@ def bulk_download(max_threads=5):
             video_info = td.get_video_info(vid)
             video_info["path"] = path
             video_info["vid"] = vid
-            q.put(video_info)
+            download_queue.put(video_info)
         except (ValueError, RuntimeError) as e:
             print(e)
             print(f"vid: {vid} 下载失败！")
             continue
-    q.join()
+    download_queue.join()
 
+def signal_handler(signal, frame):
+    global download_queue
+    if download_queue.not_empty or downloading:
+        while True:
+            batch = input("下载尚未完成是否强制退出（y/n）:")
+            if batch == "y" or batch == "n":
+                break
+            print("输入有误，请重新输入！")
+        if batch == "n":
+            return
+    print("========================= 下载结束 =========================")
+    time.sleep(2)
+    sys.exit(0)
+
+signal.signal(signal.SIGINT,signal_handler)
 
 if __name__ == "__main__":
     print("===================糖豆视频下载器 By CCBP===================")
@@ -218,9 +248,16 @@ if __name__ == "__main__":
     print('             清晰度选择以","、"，"作为分隔符')
     print('视频剪辑的时间输入以" "、"."、":"、"："、","、"，"作为分隔符')
     print("============================================================")
-    is_bulk = input("是否批量下载（y/n）:")
-    if is_bulk in ["y", "Y"]:
-        bulk_download()
-    else:
-        while True:
-            main()
+    json_dir = "DownloadList"
+    if os.path.exists(json_dir):
+        if os.listdir(json_dir):
+            while True:
+                batch = input("检测到批量下载目录非空是否尝试批量下载（y/n）:")
+                if batch == "y" or batch == "n":
+                    break
+                print("输入有误，请重新输入！")
+            if batch == "y":
+                batch_download(json_dir)
+
+    while True:
+        separate_download()
