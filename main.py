@@ -228,7 +228,7 @@ def batch_download(json_dir, max_threads=5):
 
 def signal_handler(signal, frame):
     global download_queue
-    if download_queue.not_empty or downloading:
+    if not download_queue.empty() or downloading:
         while True:
             batch = input("下载尚未完成是否强制退出（y/n）:")
             if batch == "y" or batch == "n":
@@ -236,7 +236,7 @@ def signal_handler(signal, frame):
             print("输入有误，请重新输入！")
         if batch == "n":
             return
-    print("========================= 下载结束 =========================")
+    print("\n========================= 下载结束 =========================")
     time.sleep(2)
     sys.exit(0)
 
