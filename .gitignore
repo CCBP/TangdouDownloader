@@ -5,3 +5,7 @@ dist
 Download
 python-3.8.3-embed-amd64
 *.exe
+.venv
+.vscode
+Bulk_Download
+DownloadList/*.json
