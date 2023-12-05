@@ -7,6 +7,8 @@
 
 # 使用说明
 
+## 基础使用
+
 在[发布页面](https://github.com/CCBP/TangdouDownloader/releases/)下载最新版本的应用程序后便可直接双击 `tangdou_video.exe` 运行。由于本人时间有限并没有为其编写图形界面，故运行会会显示命令窗口，通过在窗口中根据提示进行交互即可。
 
 使用过程中需要注意的是：
@@ -68,7 +70,13 @@ KeyboardInterrupt
 
 > Linux 用户可以自行安装 python 以及使用 `pip install -r requirement.txt` 安装依赖，执行命令 `python main.py` 运行程序
 
-> 支持批量下载糖豆视频，可通过抓包获取喜欢、收藏、下载的请求结果，将响应体保存至 `input` 文件中，程序会自动解析文件中的请求结果并下载视频。
+## 批量下载
+
+> 感谢 [@lvguanjun](https://github.com/lvguanjun)
+
+支持批量下载糖豆视频，可通过抓包获取喜欢、收藏、下载的请求结果，将响应体保存至 `DownloadList` 目录中，程序会自动解析文件中的请求结果并下载视频，具体的文件及目录形式可参考`ExampleList`目录。
+
+ps: 关于如何抓包等相关操作请自行搜索学习。
 
 # 实现方法
 
