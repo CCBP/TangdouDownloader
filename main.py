@@ -159,9 +159,7 @@ def separate_download():
                 print("输入有误，请重新输入！")
 
             if save == "y":
-                filepath = os.path.join(
-                    video_info["path"], video_info["name"] + "_clip.mp4"
-                )
+                filepath = os.path.join(path, name + "_clip.mp4")
                 video.write_videofile(filepath)
                 if not os.path.exists(filepath):
                     raise OSError("video save error, {} does not exist".format(filepath))
@@ -174,7 +172,7 @@ def separate_download():
 
         if convert == "y":
             audio = video.audio
-            filepath = os.path.join(video_info["path"], video_info["name"] + ".mp3")
+            filepath = os.path.join(path, name + ".mp3")
             audio.write_audiofile(filepath)
             if not os.path.exists(filepath):
                 raise OSError("audio save error, {} does not exist".format(filepath))
