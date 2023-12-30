@@ -247,8 +247,13 @@ if __name__ == "__main__":
     print('视频剪辑的时间输入以" "、"."、":"、"："、","、"，"作为分隔符')
     print("============================================================")
     json_dir = "DownloadList"
-    if os.path.exists(json_dir):
-        if os.listdir(json_dir):
+    # Check if the directory exists
+    if os.path.isdir(json_dir):
+        # List all files in the directory
+        files_in_directory = os.listdir(json_dir)
+        # Filter out files that end with .json
+        json_files = [file for file in files_in_directory if file.endswith('.json')]
+	if json_files:
             while True:
                 batch = input("检测到批量下载目录非空是否尝试批量下载（y/n）:")
                 if batch == "y" or batch == "n":
