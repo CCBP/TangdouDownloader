@@ -253,7 +253,7 @@ if __name__ == "__main__":
         files_in_directory = os.listdir(json_dir)
         # Filter out files that end with .json
         json_files = [file for file in files_in_directory if file.endswith('.json')]
-	if json_files:
+        if json_files:
             while True:
                 batch = input("检测到批量下载目录非空是否尝试批量下载（y/n）:")
                 if batch == "y" or batch == "n":
