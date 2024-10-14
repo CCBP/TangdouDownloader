@@ -95,11 +95,17 @@ class VideoAPI(object):
         url = api_dict['data']['video_url']
         clarity = ('H1080P', 'V1080P', 'H720P', 'V720P', 'H540P', 'V540P', 'H360P', 'V360P')
         header = headers(url).buildHeader()
-        for c in clarity:
-            url = re.sub('_.[0-9]+P', f'_{c}', url)
-            response = requests.get(url, headers=header, stream=True)
-            if response.status_code != 404:
-                urls[c] = url
+
+        if re.search('_.[0-9]+P', url):
+            for c in clarity:
+                urls[c] = re.sub('_.[0-9]+P', f'_{c}', url)
+        else:
+            urls['unknown'] = url
+
+        for key in urls.copy().keys():
+            response = requests.get(urls[key], headers=header, stream=True)
+            if response.status_code == 404:
+                urls.pop(key, None)
         return video_info
 
 class AudioAPI(object):
